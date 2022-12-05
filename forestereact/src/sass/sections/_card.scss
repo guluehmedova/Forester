@@ -1,0 +1,60 @@
+.card--section {
+    background-color: #f2f4ec;
+    width: 100%;
+    min-height: 100vh;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+    .container{
+        max-width: 1200px;
+        margin: auto;
+    }
+    h2 {
+        color: #000000;
+        text-align: center;
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        font-size: 46px;
+        font-weight: 700;
+        font-style: normal;
+        margin-bottom: 90px;
+    }
+    .card{
+        background-color: white;
+        max-width: 360px;
+        min-height: 450px;
+        border-radius: 5px;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        text-align: center;
+        font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        h3{
+            font-size: 20px;
+            font-weight: 800;
+            margin: 10px 0px;
+        }
+        p{
+            margin: 40px 0px;
+        }
+        a{
+            color: white;
+            margin: 10px 0px;
+            background-color: #A8B57D;
+            padding: 10px;
+            border-radius: 50px;
+        }
+        .card--img{
+            width: 100%;
+            border-top-left-radius: 5px;
+            border-top-right-radius: 5px;
+        }
+    }
+}
+.main{
+    display: flex;
+}
+
+
+@media only screen and (max-width: 1144px){
+   .main{
+    flex-direction: column;
+   }
+}
